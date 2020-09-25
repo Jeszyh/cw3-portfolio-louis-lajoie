@@ -18,7 +18,16 @@
   display: flex;
   flex-flow: row wrap;
   article{
-    width: 30%;
+    width: 48%;
+    margin: 0;
   }
 }
+}
+@media screen and (min-width: $vw-large) {
+  .creation{
+    article{
+      width: 32%;
+      margin: 0;
+    }
+  }
 }
