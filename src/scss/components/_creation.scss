@@ -1,6 +1,22 @@
 .creation{
   margin-top: var(--margin-large);
   img{
-    width: 20%;
+    width: 75%;
   }
+  article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: var(--padding-thin);
+  }
+}
+
+@media screen and (min-width: $vw-medium) {
+.creation{
+  article{
+    width: 45%;
+  }
+}
 }

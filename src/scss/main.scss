@@ -30,11 +30,10 @@
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
-@import "components/header";
-@import "components/nav";
+@import "components/header-page";
+@import "components/btn";
 @import "components/creation";
 @import "components/hero";
-@import "components/articles";
 @import "components/footer";
 
 // UTILITIES
