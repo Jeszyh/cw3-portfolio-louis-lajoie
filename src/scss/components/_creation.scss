@@ -15,8 +15,10 @@
 
 @media screen and (min-width: $vw-medium) {
 .creation{
+  display: flex;
+  flex-flow: row wrap;
   article{
-    width: 45%;
+    width: 30%;
   }
 }
 }
