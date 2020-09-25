@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Louis Lajoie</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sarabun:wght@700&display=swap" rel="stylesheet">
@@ -9,64 +10,79 @@
 
 </head>
 <body>
-<div class="wrapper">
-<header>
 
-        <img src="images/svg/logo.svg" alt="logo">
-        <h2>Louis Lajoie</h2>
-
-</header>
-</div>
+<header class="header-page">
+    <div class="wrapper flex">
+    <div class="logo">
+        <h2>
+            <img src="images/svg/logo.svg" alt="logo">
+            Louis Lajoie
+        </h2>
+    </div>
         <nav class="nav-principale">
-            <div class="wrapper">
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Réalisations</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            </div>
+
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Réalisations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
         </nav>
+    </div>
+</header>
+
 
 
 <section class="hero">
-    <div class="wrapper hero">
-    <h4>Intégrateur web</h4>
-    <h1>Louis Lajoie</h1>
-    <p>Vous cherche un spécialiste en développement web, en animation de page web et en référencement, vous l’avez trouvé!</p>
-    <button><a href="#">Voir mes réalisations</a></button>
-    <img src="images/louis-lajoie.png" alt="louis">
+    <div class="wrapper flex hero">
+        <div>
+            <h4>Intégrateur web</h4>
+            <h1>Louis Lajoie</h1>
+            <p>Vous cherche un spécialiste en développement web, en animation de page web et en référencement, vous l’avez trouvé!</p>
+            <a href="#" class="btn btn-medium">Voir mes réalisations</a>
+        </div>
+        <img class="photo" src="images/louis-lajoie.png" alt="louis">
     </div>
 </section>
 
-<section class="realisation">
-    <div class="wrapper">
+<section class="wrapper creation">
+
         <article>
-            <img src="images/svg/Desktop.svg" alt="pc">
+            <header>
+                <img src="images/svg/Desktop.svg" alt="pc">
+            </header>
             <h3>Création de sites web</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam praesentium quos reprehenderit soluta voluptatibus.</p>
         </article>
         <article>
-            <img src="images/svg/cogs.svg" alt="engrenage">
+            <header>
+                <img src="images/svg/cogs.svg" alt="engrenage">
+            </header>
             <h3>Conception graphique</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam praesentium quos reprehenderit soluta voluptatibus.</p>
         </article>
         <article>
-            <img src="images/svg/camera.svg" alt="camera">
+            <header>
+                <img src="images/svg/camera.svg" alt="camera">
+            </header>
             <h3>photographie</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam praesentium quos reprehenderit soluta voluptatibus.</p>
         </article>
         <article>
-            <img src="images/svg/stats-dots.svg" alt="symbole en point">
+            <header>
+                <img src="images/svg/stats-dots.svg" alt="symbole en point">
+            </header>
             <h3>référencement</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam praesentium quos reprehenderit soluta voluptatibus.</p>
         </article>
         <article>
-            <img src="images/svg/pencil.svg" alt="crayon">
+            <header>
+                <img src="images/svg/pencil.svg" alt="crayon">
+            </header>
             <h3>illustration</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam praesentium quos reprehenderit soluta voluptatibus.</p>
         </article>
-    </div>
+
 </section>
 <footer>
     <div class="wrapper">
