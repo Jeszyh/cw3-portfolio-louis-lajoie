@@ -1,0 +1,24 @@
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  padding: var(--padding-large) var(--padding-thin) 0;
+
+  background: var(--color-bg-secondary) ;
+ img{
+   width: 25%;
+ }
+  a{
+    color: var(--color-text-secondary);
+
+  }
+button{
+  background: var(--degrade-principale);
+  border: none;
+  padding: var(--padding-thin) var(--padding-large);
+  margin-bottom: var(--margin-large);
+}
+}
